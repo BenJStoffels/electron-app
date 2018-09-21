@@ -1,0 +1,302 @@
+[
+    {
+        "nom": "nox",
+        "gen": "noctis",
+        "geslacht": "v",
+        "vert": [
+            "nacht"
+        ]
+    },
+    {
+        "nom": "nubes",
+        "gen": "nubis",
+        "geslacht": "v",
+        "vert": [
+            "wolk"
+        ]
+    },
+    {
+        "nom": "obses",
+        "gen": "obsidis",
+        "geslacht": "m",
+        "vert": [
+            "gijzelaar"
+        ]
+    },
+    {
+        "nom": "orbis",
+        "gen": "orbis",
+        "geslacht": "m",
+        "vert": [
+            "cirkel",
+            "kring"
+        ]
+    },
+    {
+        "nom": "ordo",
+        "gen": "ordinis",
+        "geslacht": "m",
+        "vert": [
+            "rij",
+            "stand",
+            "rang",
+            "klasse",
+            "orde"
+        ]
+    },
+    {
+        "nom": "parens",
+        "gen": "parentis",
+        "geslacht": "m",
+        "vert": [
+            "ouder",
+            "vader",
+            "moeder"
+        ]
+    },
+    {
+        "nom": "pars",
+        "gen": "partis",
+        "geslacht": "v",
+        "vert": [
+            "deel"
+        ]
+    },
+    {
+        "nom": "pastor",
+        "gen": "pastoris",
+        "geslacht": "m",
+        "vert": [
+            "herder"
+        ]
+    },
+    {
+        "nom": "pater",
+        "gen": "patris",
+        "geslacht": "m",
+        "vert": [
+            "vader"
+        ]
+    },
+    {
+        "nom": "pax",
+        "gen": "pacis",
+        "geslacht": "v",
+        "vert": [
+            "vrede"
+        ]
+    },
+    {
+        "nom": "pes",
+        "gen": "pedis",
+        "geslacht": "m",
+        "vert": [
+            "voet",
+            "poot"
+        ]
+    },
+    {
+        "nom": "plebs",
+        "gen": "plebis",
+        "geslacht": "v",
+        "vert": [
+            "volksmenigte",
+            "gepeupel"
+        ]
+    },
+    {
+        "nom": "pons",
+        "gen": "pontis",
+        "geslacht": "m",
+        "vert": [
+            "brug"
+        ]
+    },
+    {
+        "nom": "potestas",
+        "gen": "potestatis",
+        "geslacht": "v",
+        "vert": [
+            "macht",
+            "gezag"
+        ]
+    },
+    {
+        "nom": "regio",
+        "gen": "regionis",
+        "geslacht": "v",
+        "vert": [
+            "gebied",
+            "streek"
+        ]
+    },
+    {
+        "nom": "rex",
+        "gen": "regis",
+        "geslacht": "m",
+        "vert": [
+            "koning"
+        ]
+    },
+    {
+        "nom": "salus",
+        "gen": "salutis",
+        "geslacht": "v",
+        "vert": [
+            "gezondheid",
+            "welzijn",
+            "redding",
+            "veiligheid",
+            "groet"
+        ]
+    },
+    {
+        "nom": "sanguis",
+        "gen": "sanguinis",
+        "geslacht": "m",
+        "vert": [
+            "bloed"
+        ]
+    },
+    {
+        "nom": "sedes",
+        "gen": "sedis",
+        "geslacht": "v",
+        "vert": [
+            "zitplaats",
+            "zetel",
+            "stoel",
+            "woonplaats",
+            "woning"
+        ]
+    },
+    {
+        "nom": "senex",
+        "gen": "senis",
+        "geslacht": "m",
+        "vert": [
+            "oude man"
+        ]
+    },
+    {
+        "nom": "sol",
+        "gen": "solis",
+        "geslacht": "m",
+        "vert": [
+            "zon"
+        ]
+    },
+    {
+        "nom": "tellus",
+        "gen": "telluris",
+        "geslacht": "v",
+        "vert": [
+            "aarde",
+            "grond",
+            "land",
+            "gebied",
+            "streek"
+        ]
+    },
+    {
+        "nom": "turris",
+        "gen": "turris",
+        "geslacht": "v",
+        "vert": [
+            "toren",
+            "paleis"
+        ]
+    },
+    {
+        "nom": "urbs",
+        "gen": "urbis",
+        "geslacht": "v",
+        "vert": [
+            "stad"
+        ]
+    },
+    {
+        "nom": "uxor",
+        "gen": "uxoris",
+        "geslacht": "v",
+        "vert": [
+            "echtgenote",
+            "vrouw"
+        ]
+    },
+    {
+        "nom": "vallis",
+        "gen": "vallis",
+        "geslacht": "v",
+        "vert": [
+            "dal",
+            "vallei"
+        ]
+    },
+    {
+        "nom": "veritas",
+        "gen": "veritatis",
+        "geslacht": "v",
+        "vert": [
+            "waarheid"
+        ]
+    },
+    {
+        "nom": "vestis",
+        "gen": "vestis",
+        "geslacht": "v",
+        "vert": [
+            "kledingstuk",
+            "kleding",
+            "kleed"
+        ]
+    },
+    {
+        "nom": "victor",
+        "gen": "victoris",
+        "geslacht": "m",
+        "vert": [
+            "overwinnaar",
+            "winnaar"
+        ]
+    },
+    {
+        "nom": "virgo",
+        "gen": "virginis",
+        "geslacht": "v",
+        "vert": [
+            "maagd",
+            "meisje"
+        ]
+    },
+    {
+        "nom": "virtus",
+        "gen": "virtutis",
+        "geslacht": "v",
+        "vert": [
+            "dapperheid",
+            "moed",
+            "voortreffelijkheid",
+            "deugdzaamheid"
+        ]
+    },
+    {
+        "nom": "vis",
+        "gen": "acc. vim abl. vi",
+        "geslacht": "v",
+        "vert": [
+            "kracht",
+            "sterkte",
+            "gewelddaad",
+            "daad"
+        ]
+    },
+    {
+        "nom": "vox",
+        "gen": "vocis",
+        "geslacht": "v",
+        "vert": [
+            "stem"
+        ]
+    }
+]

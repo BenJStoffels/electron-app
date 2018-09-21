@@ -1,0 +1,915 @@
+[{
+        "nom": "ala",
+        "gen": "alae",
+        "geslacht": "v",
+        "vert": [
+            "vleugel"
+        ]
+    },
+    {
+        "nom": "anima",
+        "gen": "animae",
+        "geslacht": "v",
+        "vert": [
+            "adem",
+            "ziel"
+        ]
+    },
+    {
+        "nom": "aqua",
+        "gen": "aquae",
+        "geslacht": "v",
+        "vert": [
+            "water"
+        ]
+    },
+    {
+        "nom": "avaritia",
+        "gen": "avaritiae",
+        "geslacht": "v",
+        "vert": [
+            "hebzucht",
+            "gierigheid"
+        ]
+    },
+    {
+        "nom": "causa",
+        "gen": "causae",
+        "geslacht": "v",
+        "vert": [
+            "oorzaak",
+            "reden",
+            "rechtzaak",
+            "proces"
+        ]
+    },
+    {
+        "nom": "gen.+causa",
+        "gen": " ",
+        "geslacht": "v",
+        "vert": [
+            "wegens",
+            " omwille van"
+        ]
+    },
+    {
+        "nom": "copia",
+        "gen": "copiae",
+        "geslacht": "v",
+        "vert": [
+            "voorraad",
+            "hoeveelheid",
+            "menigte",
+            "gelegenheid",
+            "mogelijkheid"
+        ]
+    },
+    {
+        "nom": "fama",
+        "gen": "famae",
+        "geslacht": "v",
+        "vert": [
+            "gerucht",
+            "opinie",
+            "roem",
+            "reputatie"
+        ]
+    },
+    {
+        "nom": "fera",
+        "gen": "ferae",
+        "geslacht": "v",
+        "vert": [
+            "wild dier"
+        ]
+    },
+    {
+        "nom": "flamma",
+        "gen": "flammae",
+        "geslacht": "v",
+        "vert": [
+            "vlam",
+            "vuur"
+        ]
+    },
+    {
+        "nom": "fortuna",
+        "gen": "fortunae",
+        "geslacht": "v",
+        "vert": [
+            "lot",
+            "toeval",
+            "ongeluk",
+            "geluk",
+            "bezit",
+            "vermogen"
+        ]
+    },
+    {
+        "nom": "fuga",
+        "gen": "fugae",
+        "geslacht": "v",
+        "vert": [
+            "vlucht"
+        ]
+    },
+    {
+        "nom": "gen.+gratia",
+        "gen": " ",
+        "geslacht": "v",
+        "vert": [
+            "wegens",
+            "omwille van"
+        ]
+    },
+    {
+        "nom": "hora",
+        "gen": "horae",
+        "geslacht": "v",
+        "vert": [
+            "uur"
+        ]
+    },
+    {
+        "nom": "lacrima",
+        "gen": "lacrimae",
+        "geslacht": "v",
+        "vert": [
+            "traan"
+        ]
+    },
+    {
+        "nom": "lingua",
+        "gen": "linguae",
+        "geslacht": "v",
+        "vert": [
+            "tong",
+            "taal"
+        ]
+    },
+    {
+        "nom": "luna",
+        "gen": "lunae",
+        "geslacht": "v",
+        "vert": [
+            "maan"
+        ]
+    },
+    {
+        "nom": "natura",
+        "gen": "naturae",
+        "geslacht": "v",
+        "vert": [
+            "natuur",
+            "aard",
+            "karakter"
+        ]
+    },
+    {
+        "nom": "nympha",
+        "gen": "nymphae",
+        "geslacht": "v",
+        "vert": [
+            "nimf"
+        ]
+    },
+    {
+        "nom": "ora",
+        "gen": "orae",
+        "geslacht": "v",
+        "vert": [
+            "kust"
+        ]
+    },
+    {
+        "nom": "patria",
+        "gen": "patriae",
+        "geslacht": "v",
+        "vert": [
+            "vaderland"
+        ]
+    },
+    {
+        "nom": "pecunia",
+        "gen": "pecuniae",
+        "geslacht": "v",
+        "vert": [
+            "geld"
+        ]
+    },
+    {
+        "nom": "penna",
+        "gen": "pennae",
+        "geslacht": "v",
+        "vert": [
+            "veer",
+            "slagpen",
+            "vleugel"
+        ]
+    },
+    {
+        "nom": "poena",
+        "gen": "poenae",
+        "geslacht": "v",
+        "vert": [
+            "straf",
+            "boete"
+        ]
+    },
+    {
+        "nom": "porta",
+        "gen": "portae",
+        "geslacht": "v",
+        "vert": [
+            "poort",
+            "deur"
+        ]
+    },
+    {
+        "nom": "praeda",
+        "gen": "praedae",
+        "geslacht": "v",
+        "vert": [
+            "buit",
+            "prooi"
+        ]
+    },
+    {
+        "nom": "pugna",
+        "gen": "pugnae",
+        "geslacht": "v",
+        "vert": [
+            "strijd",
+            "gevecht"
+        ]
+    },
+    {
+        "nom": "ripa",
+        "gen": "ripae",
+        "geslacht": "v",
+        "vert": [
+            "oever"
+        ]
+    },
+    {
+        "nom": "sententia",
+        "gen": "sententiae",
+        "geslacht": "v",
+        "vert": [
+            "mening",
+            "besluit",
+            "betekenis",
+            "inhoud",
+            "spreuk",
+            "zin"
+        ]
+    },
+    {
+        "nom": "silva",
+        "gen": "silvae",
+        "geslacht": "v",
+        "vert": [
+            "bos",
+            "woud"
+        ]
+    },
+    {
+        "nom": "terra",
+        "gen": "terrae",
+        "geslacht": "v",
+        "vert": [
+            "aarde",
+            "grond",
+            "land",
+            "streek"
+        ]
+    },
+    {
+        "nom": "umbra",
+        "gen": "umbrae",
+        "geslacht": "v",
+        "vert": [
+            "schaduw",
+            "schim"
+        ]
+    },
+    {
+        "nom": "unda",
+        "gen": "undae",
+        "geslacht": "v",
+        "vert": [
+            "golf"
+        ]
+    },
+    {
+        "nom": "via",
+        "gen": "viae",
+        "geslacht": "v",
+        "vert": [
+            "weg",
+            "straat"
+        ]
+    },
+    {
+        "nom": "victoria",
+        "gen": "victoriae",
+        "geslacht": "v",
+        "vert": [
+            "overwinning"
+        ]
+    },
+    {
+        "nom": "vita",
+        "gen": "vitae",
+        "geslacht": "v",
+        "vert": [
+            "leven"
+        ]
+    },
+    {
+        "nom": "roma",
+        "gen": "romae",
+        "geslacht": "v",
+        "vert": [
+            "rome"
+        ]
+    },
+    {
+        "nom": "amicus",
+        "gen": "amici",
+        "geslacht": "m",
+        "vert": [
+            "vriend"
+        ]
+    },
+    {
+        "nom": "animus",
+        "gen": "animi",
+        "geslacht": "m",
+        "vert": [
+            "ziel",
+            "geest",
+            "gemoed",
+            "hart",
+            "aard",
+            "karakter"
+        ]
+    },
+    {
+        "nom": "annus",
+        "gen": "anni",
+        "geslacht": "m",
+        "vert": [
+            "jaar"
+        ]
+    },
+    {
+        "nom": "campus",
+        "gen": "campi",
+        "geslacht": "m",
+        "vert": [
+            "vlakte",
+            "veld"
+        ]
+    },
+    {
+        "nom": "captivus",
+        "gen": "captivi",
+        "geslacht": "m",
+        "vert": [
+            "krijgsgevangene",
+            "gevangene"
+        ]
+    },
+    {
+        "nom": "deus",
+        "gen": "dei",
+        "geslacht": "m",
+        "vert": [
+            "god"
+        ]
+    },
+    {
+        "nom": "dolus",
+        "gen": "doli",
+        "geslacht": "m",
+        "vert": [
+            "list",
+            "bedrog"
+        ]
+    },
+    {
+        "nom": "equus",
+        "gen": "equi",
+        "geslacht": "m",
+        "vert": [
+            "paard"
+        ]
+    },
+    {
+        "nom": "filius",
+        "gen": "filii",
+        "geslacht": "m",
+        "vert": [
+            "zoon"
+        ]
+    },
+    {
+        "nom": "humus",
+        "gen": "humi",
+        "geslacht": "m",
+        "vert": [
+            "grond",
+            "aarde",
+            "land"
+        ]
+    },
+    {
+        "nom": "legatus",
+        "gen": "legati",
+        "geslacht": "m",
+        "vert": [
+            "gezant",
+            "onderbevelhebber"
+        ]
+    },
+    {
+        "nom": "locus",
+        "gen": "loci",
+        "geslacht": "m",
+        "vert": [
+            "plaats"
+        ]
+    },
+    {
+        "nom": "lucus",
+        "gen": "luci",
+        "geslacht": "m",
+        "vert": [
+            "heilig bos",
+            "bos",
+            "woud"
+        ]
+    },
+    {
+        "nom": "modus",
+        "gen": "modi",
+        "geslacht": "m",
+        "vert": [
+            "manier",
+            "wijze",
+            "maat"
+        ]
+    },
+    {
+        "nom": "murus",
+        "gen": "muri",
+        "geslacht": "m",
+        "vert": [
+            "muur"
+        ]
+    },
+    {
+        "nom": "numerus",
+        "gen": "numeri",
+        "geslacht": "m",
+        "vert": [
+            "getal",
+            "aantal"
+        ]
+    },
+    {
+        "nom": "oculus",
+        "gen": "oculi",
+        "geslacht": "m",
+        "vert": [
+            "oog"
+        ]
+    },
+    {
+        "nom": "pontus",
+        "gen": "ponti",
+        "geslacht": "m",
+        "vert": [
+            "zee"
+        ]
+    },
+    {
+        "nom": "populus",
+        "gen": "populi",
+        "geslacht": "m",
+        "vert": [
+            "volk"
+        ]
+    },
+    {
+        "nom": "ramus",
+        "gen": "rami",
+        "geslacht": "m",
+        "vert": [
+            "tak"
+        ]
+    },
+    {
+        "nom": "remus",
+        "gen": "remi",
+        "geslacht": "m",
+        "vert": [
+            "roeiriem"
+        ]
+    },
+    {
+        "nom": "servus",
+        "gen": "servi",
+        "geslacht": "m",
+        "vert": [
+            "slaaf"
+        ]
+    },
+    {
+        "nom": "somnus",
+        "gen": "somni",
+        "geslacht": "m",
+        "vert": [
+            "slaap"
+        ]
+    },
+    {
+        "nom": "tumulus",
+        "gen": "tumuli",
+        "geslacht": "m",
+        "vert": [
+            "grafheuvel",
+            "heuvel"
+        ]
+    },
+    {
+        "nom": "umerus",
+        "gen": "umeri",
+        "geslacht": "m",
+        "vert": [
+            "schouder"
+        ]
+    },
+    {
+        "nom": "ventus",
+        "gen": "venti",
+        "geslacht": "m",
+        "vert": [
+            "wind"
+        ]
+    },
+    {
+        "nom": "romanus",
+        "gen": "romani",
+        "geslacht": "m",
+        "vert": [
+            "romein"
+        ]
+    },
+    {
+        "nom": "ager",
+        "gen": "agri",
+        "geslacht": "m",
+        "vert": [
+            "akker",
+            "veld"
+        ]
+    },
+    {
+        "nom": "liberi",
+        "gen": "liberorum",
+        "geslacht": "m",
+        "vert": [
+            "kinderen"
+        ]
+    },
+    {
+        "nom": "puer",
+        "gen": "pueri",
+        "geslacht": "m",
+        "vert": [
+            "jongen",
+            "knaap"
+        ]
+    },
+    {
+        "nom": "vir",
+        "gen": "viri",
+        "geslacht": "m",
+        "vert": [
+            "man"
+        ]
+    },
+    {
+        "nom": "antrum",
+        "gen": "antri",
+        "geslacht": "o",
+        "vert": [
+            "grot"
+        ]
+    },
+    {
+        "nom": "arma",
+        "gen": "armorum",
+        "geslacht": "o",
+        "vert": [
+            "wapens"
+        ]
+    },
+    {
+        "nom": "bellum",
+        "gen": "belli",
+        "geslacht": "o",
+        "vert": [
+            "oorlog"
+        ]
+    },
+    {
+        "nom": "caelum",
+        "gen": "caeli",
+        "geslacht": "o",
+        "vert": [
+            "hemel"
+        ]
+    },
+    {
+        "nom": "castra",
+        "gen": "castrorum",
+        "geslacht": "o",
+        "vert": [
+            "legerkamp",
+            "kamp"
+        ]
+    },
+    {
+        "nom": "collum",
+        "gen": "colli",
+        "geslacht": "o",
+        "vert": [
+            "hals",
+            "nek"
+        ]
+    },
+    {
+        "nom": "consilium",
+        "gen": "consilii",
+        "geslacht": "o",
+        "vert": [
+            "plan",
+            "voornemen",
+            "beraadslaging",
+            "overleg",
+            "raad",
+            "raadgeving",
+            "advies",
+            "besluit",
+            "beslissing"
+        ]
+    },
+    {
+        "nom": "dictum",
+        "gen": "dicti",
+        "geslacht": "o",
+        "vert": [
+            "woord",
+            "uitspraak",
+            "gezegde"
+        ]
+    },
+    {
+        "nom": "donum",
+        "gen": "doni",
+        "geslacht": "o",
+        "vert": [
+            "geschenk"
+        ]
+    },
+    {
+        "nom": "factum",
+        "gen": "facti",
+        "geslacht": "o",
+        "vert": [
+            "daad",
+            "handeling",
+            "werk",
+            "voorval",
+            "gebeurtenis",
+            "feit"
+        ]
+    },
+    {
+        "nom": "forum",
+        "gen": "fori",
+        "geslacht": "o",
+        "vert": [
+            "forum",
+            "marktplein"
+        ]
+    },
+    {
+        "nom": "imperium",
+        "gen": "imperii",
+        "geslacht": "o",
+        "vert": [
+            "bevel",
+            "heerschappij",
+            "macht",
+            "rijk"
+        ]
+    },
+    {
+        "nom": "initium",
+        "gen": "initii",
+        "geslacht": "o",
+        "vert": [
+            "begin"
+        ]
+    },
+    {
+        "nom": "oppidum",
+        "gen": "oppidi",
+        "geslacht": "o",
+        "vert": [
+            "versterkte stad",
+            "stad"
+        ]
+    },
+    {
+        "nom": "praemium",
+        "gen": "preamii",
+        "geslacht": "o",
+        "vert": [
+            "beloning"
+        ]
+    },
+    {
+        "nom": "proelium",
+        "gen": "proelii",
+        "geslacht": "o",
+        "vert": [
+            "strijd",
+            "gevecht"
+        ]
+    },
+    {
+        "nom": "iudicium",
+        "gen": "iudicii",
+        "geslacht": "o",
+        "vert": [
+            "oordeel",
+            "vonnis"
+        ]
+    },
+    {
+        "nom": "regnum",
+        "gen": "regni",
+        "geslacht": "o",
+        "vert": [
+            "koningkrijk",
+            "rijk",
+            "heerschappij"
+        ]
+    },
+    {
+        "nom": "saxum",
+        "gen": "saxi",
+        "geslacht": "o",
+        "vert": [
+            "rotsblok",
+            "rots",
+            "grote steen",
+            "steen"
+        ]
+    },
+    {
+        "nom": "signum",
+        "gen": "signi",
+        "geslacht": "o",
+        "vert": [
+            "teken",
+            "signaal",
+            "veldteken",
+            "vaandel"
+        ]
+    },
+    {
+        "nom": "solum",
+        "gen": "soli",
+        "geslacht": "o",
+        "vert": [
+            "bodem",
+            "grond",
+            "vloer"
+        ]
+    },
+    {
+        "nom": "spatium",
+        "gen": "spatii",
+        "geslacht": "o",
+        "vert": [
+            "ruimte",
+            "afstand",
+            "duur",
+            "tijdsduur",
+            "tijd"
+        ]
+    },
+    {
+        "nom": "studium",
+        "gen": "studii",
+        "geslacht": "o",
+        "vert": [
+            "ijver",
+            "drang",
+            "belangstelling",
+            "studie"
+        ]
+    },
+    {
+        "nom": "supplicium",
+        "gen": "suplicii",
+        "geslacht": "o",
+        "vert": [
+            "smeekbede",
+            "gebed",
+            "doodstraf",
+            "terechtstelling"
+        ]
+    },
+    {
+        "nom": "tectum",
+        "gen": "tecti",
+        "geslacht": "o",
+        "vert": [
+            "dak",
+            "woning",
+            "huis"
+        ]
+    },
+    {
+        "nom": "telum",
+        "gen": "teli",
+        "geslacht": "o",
+        "vert": [
+            "werptuig",
+            "projectiel"
+        ]
+    },
+    {
+        "nom": "templum",
+        "gen": "templi",
+        "geslacht": "o",
+        "vert": [
+            "tempel",
+            "heiligdom"
+        ]
+    },
+    {
+        "nom": "tergum",
+        "gen": "tergi",
+        "geslacht": "o",
+        "vert": [
+            "rug"
+        ]
+    },
+    {
+        "nom": "vallum",
+        "gen": "valli",
+        "geslacht": "o",
+        "vert": [
+            "verdedigingswal",
+            "wal",
+            "beschutting"
+        ]
+    },
+    {
+        "nom": "verbum",
+        "gen": "verbi",
+        "geslacht": "o",
+        "vert": [
+            "woord",
+            ""
+        ]
+    },
+    {
+        "nom": "vestigium",
+        "gen": "vestigii",
+        "geslacht": "o",
+        "vert": [
+            "voetspoor",
+            "spoor",
+            "voetstap",
+            "stap"
+        ]
+    },
+    {
+        "nom": "votum",
+        "gen": "voti",
+        "geslacht": "o",
+        "vert": [
+            "gelofte",
+            "gebed"
+        ]
+    }
+]

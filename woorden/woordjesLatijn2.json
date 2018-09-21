@@ -1,0 +1,443 @@
+[
+    {
+        "nom": "aer",
+        "gen": "aeris",
+        "geslacht": "m",
+        "vert": [
+            "lucht"
+        ]
+    },
+    {
+        "nom": "aestas",
+        "gen": "aestatis",
+        "geslacht": "v",
+        "vert": [
+            "zomer",
+            "zomerhitte"
+        ]
+    },
+    {
+        "nom": "aetas",
+        "gen": "aetatis",
+        "geslacht": "v",
+        "vert": [
+            "leeftijd",
+            "tijd",
+            "tijdperk"
+        ]
+    },
+    {
+        "nom": "amor",
+        "gen": "amoris",
+        "geslacht": "m",
+        "vert": [
+            "liefde"
+        ]
+    },
+    {
+        "nom": "arbor",
+        "gen": "arboris",
+        "geslacht": "v",
+        "vert": [
+            "boom"
+        ]
+    },
+    {
+        "nom": "ars",
+        "gen": "artis",
+        "geslacht": "v",
+        "vert": [
+            "kunst",
+            "vaardigheid"
+        ]
+    },
+    {
+        "nom": "arx",
+        "gen": "arcis",
+        "geslacht": "v",
+        "vert": [
+            "burcht",
+            "vestiging",
+            "bovenstad"
+        ]
+    },
+    {
+        "nom": "auctoritas",
+        "gen": "auctoritatis",
+        "geslacht": "v",
+        "vert": [
+            "macht",
+            "gezag",
+            "aanzien",
+            "invloed"
+        ]
+    },
+    {
+        "nom": "auris",
+        "gen": "auris",
+        "geslacht": "v",
+        "vert": [
+            "oor"
+        ]
+    },
+    {
+        "nom": "caedes",
+        "gen": "caedis",
+        "geslacht": "v",
+        "vert": [
+            "moord",
+            "doodslag",
+            "bloedbad",
+            "slachting"
+        ]
+    },
+    {
+        "nom": "canis",
+        "gen": "canis",
+        "geslacht": "m",
+        "vert": [
+            "hond"
+        ]
+    },
+    {
+        "nom": "civis",
+        "gen": "civis",
+        "geslacht": "m",
+        "vert": [
+            "burger"
+        ]
+    },
+    {
+        "nom": "civitas",
+        "gen": "civitatis",
+        "geslacht": "v",
+        "vert": [
+            "burgerrecht",
+            "burgerschap",
+            "stad",
+            "gemeente",
+            "staat"
+        ]
+    },
+    {
+        "nom": "clamor",
+        "gen": "clamoris",
+        "geslacht": "m",
+        "vert": [
+            "geroep",
+            "geschreeuw"
+        ]
+    },
+    {
+        "nom": "collis",
+        "gen": "collis",
+        "geslacht": "m",
+        "vert": [
+            "heuvel"
+        ]
+    },
+    {
+        "nom": "adulescens",
+        "gen": "adulescentis",
+        "geslacht": "m",
+        "vert": [
+            "jongeman"
+        ]
+    },
+    {
+        "nom": "comes",
+        "gen": "comitis",
+        "geslacht": "m",
+        "vert": [
+            "begeleider",
+            "metgezel"
+        ]
+    },
+    {
+        "nom": "coniunx",
+        "gen": "coniugis",
+        "geslacht": "m",
+        "vert": [
+            "echtgenoot",
+            "echtgenote"
+        ]
+    },
+    {
+        "nom": "consul",
+        "gen": "consulis",
+        "geslacht": "m",
+        "vert": [
+            "consul",
+            "een van de twee hoogste ambtenaren in de republiek"
+        ]
+    },
+    {
+        "nom": "custos",
+        "gen": "custodis",
+        "geslacht": "m",
+        "vert": [
+            "bewaker",
+            "beschermer"
+        ]
+    },
+    {
+        "nom": "dolor",
+        "gen": "doloris",
+        "geslacht": "m",
+        "vert": [
+            "pijn",
+            "verdriet"
+        ]
+    },
+    {
+        "nom": "eques",
+        "gen": "equitis",
+        "geslacht": "m",
+        "vert": [
+            "ruiter",
+            "cavalerist",
+            "ridder"
+        ]
+    },
+    {
+        "nom": "fames",
+        "gen": "famis",
+        "geslacht": "v",
+        "vert": [
+            "honger"
+        ]
+    },
+    {
+        "nom": "finis",
+        "gen": "finis",
+        "geslacht": "m",
+        "vert": [
+            "grens",
+            "einde",
+            "gebied"
+        ]
+    },
+    {
+        "nom": "flos",
+        "gen": "floris",
+        "geslacht": "m",
+        "vert": [
+            "bloem"
+        ]
+    },
+    {
+        "nom": "fons",
+        "gen": "fontis",
+        "geslacht": "m",
+        "vert": [
+            "bron"
+        ]
+    },
+    {
+        "nom": "frater",
+        "gen": "fratris",
+        "geslacht": "m",
+        "vert": [
+            "broer"
+        ]
+    },
+    {
+        "nom": "frons",
+        "gen": "frondis",
+        "geslacht": "v",
+        "vert": [
+            "loof",
+            "gebladerde"
+        ]
+    },
+    {
+        "nom": "gens",
+        "gen": "gentis",
+        "geslacht": "v",
+        "vert": [
+            "geslacht",
+            "familie",
+            "volksstam",
+            "stam",
+            "volk",
+            "natie"
+        ]
+    },
+    {
+        "nom": "grex",
+        "gen": "gregis",
+        "geslacht": "m",
+        "vert": [
+            "kudde",
+            "troep",
+            "groep"
+        ]
+    },
+    {
+        "nom": "hiems",
+        "gen": "hiemis",
+        "geslacht": "v",
+        "vert": [
+            "winter"
+        ]
+    },
+    {
+        "nom": "homo",
+        "gen": "hominis",
+        "geslacht": "m",
+        "vert": [
+            "mens"
+        ]
+    },
+    {
+        "nom": "honor",
+        "gen": "honoris",
+        "geslacht": "m",
+        "vert": [
+            "eer",
+            "eerbetoon",
+            "ereambt",
+            "ambt"
+        ]
+    },
+    {
+        "nom": "hostis",
+        "gen": "hostis",
+        "geslacht": "m",
+        "vert": [
+            "staatsvijand",
+            "vijand"
+        ]
+    },
+    {
+        "nom": "ignis",
+        "gen": "ignis",
+        "geslacht": "m",
+        "vert": [
+            "vuur",
+            "brand"
+        ]
+    },
+    {
+        "nom": "imago",
+        "gen": "imaginis",
+        "geslacht": "v",
+        "vert": [
+            "beeld",
+            "afbeelding"
+        ]
+    },
+    {
+        "nom": "imperator",
+        "gen": "imperatoris",
+        "geslacht": "m",
+        "vert": [
+            "opperbevelhebber",
+            "keizer"
+        ]
+    },
+    {
+        "nom": "iuvenis",
+        "gen": "iuvenis",
+        "geslacht": "m",
+        "vert": [
+            "jongeman"
+        ]
+    },
+    {
+        "nom": "labor",
+        "gen": "laboris",
+        "geslacht": "m",
+        "vert": [
+            "werk",
+            "arbeid",
+            "inspanning",
+            "moeite"
+        ]
+    },
+    {
+        "nom": "lex",
+        "gen": "legis",
+        "geslacht": "v",
+        "vert": [
+            "wet"
+        ]
+    },
+    {
+        "nom": "lux",
+        "gen": "lucis",
+        "geslacht": "v",
+        "vert": [
+            "licht"
+        ]
+    },
+    {
+        "nom": "magnitudo",
+        "gen": "magnitudinis",
+        "geslacht": "v",
+        "vert": [
+            "grootte"
+        ]
+    },
+    {
+        "nom": "mater",
+        "gen": "matris",
+        "geslacht": "v",
+        "vert": [
+            "moeder"
+        ]
+    },
+    {
+        "nom": "mens",
+        "gen": "mentis",
+        "geslacht": "v",
+        "vert": [
+            "verstand",
+            "geest",
+            "gedachte"
+        ]
+    },
+    {
+        "nom": "miles",
+        "gen": "militis",
+        "geslacht": "m",
+        "vert": [
+            "soldaat"
+        ]
+    },
+    {
+        "nom": "mons",
+        "gen": "montis",
+        "geslacht": "m",
+        "vert": [
+            "berg",
+            "gebergte"
+        ]
+    },
+    {
+        "nom": "mors",
+        "gen": "mortis",
+        "geslacht": "m",
+        "vert": [
+            "zede",
+            "gewoonte"
+        ]
+    },
+    {
+        "nom": "multitudo",
+        "gen": "multitudinis",
+        "geslacht": "v",
+        "vert": [
+            "menigte",
+            "massa"
+        ]
+    },
+    {
+        "nom": "nobilitas",
+        "gen": "nobilitatis",
+        "geslacht": "v",
+        "vert": [
+            "adel"
+        ]
+    }
+]
