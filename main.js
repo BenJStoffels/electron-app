@@ -5,23 +5,23 @@ const data = require('./woorden/woordjesLatijn3.json');
 
 let mainWindow, learnWindow;
 
-function createWindow() {
+function createWindow(fileName) {
     // Create the browser window.
-    mainWindow = new BrowserWindow({ width: 800, height: 600 })
+    let window = new BrowserWindow({ width: 800, height: 600 });
 
-    mainWindow.woorden = data;
+    window.woorden = data;
 
-    mainWindow.loadFile('./mainWindow/index.html');
-
-    // Menu.setApplicationMenu(null);
+    window.loadFile(`./${fileName}/index.html`);
 
     // Emitted when the window is closed.
-    mainWindow.on('closed', function() {
-        mainWindow = null
-    })
+    window.on('closed', () => window = null);
+
+    return window;
 }
 
-app.on('ready', createWindow)
+app.on('ready', () => {
+    mainWindow = createWindow('mainWindow');
+});
 
 // Quit when all windows are closed.
 app.on('window-all-closed', function() {
@@ -32,6 +32,6 @@ app.on('window-all-closed', function() {
 
 app.on('activate', function() {
     if (mainWindow === null) {
-        createWindow()
+        mainWindow = createWindow('mainWindow');
     }
 })
