@@ -1,7 +1,9 @@
+// TODO: create Learn window, add shortcut and button from Menu mainWindow
+
 const { app, BrowserWindow, Menu } = require('electron');
 const data = require('./woorden/woordjesLatijn3.json');
 
-let mainWindow
+let mainWindow, learnWindow;
 
 function createWindow() {
     // Create the browser window.
