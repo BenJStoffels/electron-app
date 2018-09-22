@@ -1,25 +1,25 @@
 const electron = require('electron');
 
 const curwindow = electron.remote.getCurrentWindow();
-curwindow.response = curwindow.woorden;
 const checkBox = document.querySelector('input');
 
 const specialWords = [];
+const words = curwindow.woorden;
 
 checkBox.onchange = function() {
     if (checkBox.checked && specialWords.length != 0) {
         drawFromList(specialWords);
-        curwindow.response = specialWords;
+        curwindow.woorden = specialWords;
     } else {
         checkBox.checked = false;
         drawFromList(curwindow.woorden);
-        curwindow.response = curwindow.woorden;
+        curwindow.woorden = curwindow.woorden;
     }
 }
 
 
-if (curwindow.woorden) {
-    drawFromList(curwindow.woorden);
+if (words) {
+    drawFromList(words);
 }
 
 function drawFromList(list) {

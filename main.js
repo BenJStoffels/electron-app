@@ -1,15 +1,15 @@
-// TODO: create Learn window, add shortcut and button from Menu mainWindow
+// TODO: create Learn window, add shortcut and button for Menu mainWindow
 
 const { app, BrowserWindow, Menu } = require('electron');
 const data = require('./woorden/woordjesLatijn3.json');
 
 let mainWindow, learnWindow;
 
-function createWindow(fileName) {
+function createWindow(fileName, extra) {
     // Create the browser window.
     let window = new BrowserWindow({ width: 800, height: 600 });
 
-    window.woorden = data;
+    extra(window);
 
     window.loadFile(`./${fileName}/index.html`);
 
@@ -20,7 +20,18 @@ function createWindow(fileName) {
 }
 
 app.on('ready', () => {
-    mainWindow = createWindow('mainWindow');
+    mainWindow = createWindow('mainWindow', w => w.woorden = data);
+    const template = [{
+        label: 'Learn!',
+        click() {
+            learnWindow = createWindow('learnWindow', w => w.woorden = mainWindow.woorden);
+        }
+    }, {
+        label: 'devtools',
+        role: 'toggleDevTools'
+    }];
+    const menu = Menu.buildFromTemplate(template);
+    Menu.setApplicationMenu(menu);
 });
 
 // Quit when all windows are closed.
