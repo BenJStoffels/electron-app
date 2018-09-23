@@ -3,11 +3,22 @@
 
 <head>
     <title>Learn your words!!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1>Latijn Woorden</h1>
-    <div class="woorden"></div>
+    <div class="woord">
+        <form action="javascript:handleForm()">
+            <label>NOM, </label>
+            <input type="text" name="gen">:
+            <input type="text" name="vert">
+            <input type="radio" name="geslacht" value="m" checked> m
+            <input type="radio" name="geslacht" value="v"> v
+            <input type="radio" name="geslacht" value="o"> o
+            <input type="submit" value="submit">
+        </form>
+    </div>
     <script src="index.js"></script>
 </body>
 

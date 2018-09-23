@@ -23,6 +23,7 @@ app.on('ready', () => {
     mainWindow = createWindow('mainWindow', w => w.woorden = data);
     const template = [{
         label: 'Learn!',
+        accelerator: 'CmdOrCtrl+L',
         click() {
             learnWindow = createWindow('learnWindow', w => w.woorden = mainWindow.woorden);
         }
