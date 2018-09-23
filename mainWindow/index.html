@@ -4,6 +4,7 @@
 <head>
     <title>Latijn Woorden</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 
 <body>
@@ -14,7 +15,13 @@
             <span class="slider"></span>
         </label>
     </div>
-    <div class="woorden"></div>
+    <div id="woorden">
+        <div class="woordDiv" onclick="onClick(this)" v-for="woord in curwords">
+            <span class="star" v-if="specialWords.find(elt => elt.nom == woord.nom && elt.gen == woord.gen)">&#9733;</span>
+            <span class="star" v-if="!specialWords.find(elt => elt.nom == woord.nom && elt.gen == woord.gen)">&#9734;</span>
+            <p>{{ woord.nom }}, {{ woord.gen }}: <span v-for="v in woord.vert">{{ v }}, </span>({{ woord.geslacht }})</p>
+        </div>
+    </div>
     <script src="index.js"></script>
 </body>
 

@@ -9,7 +9,7 @@ h1 {
     font: arial, sans-serif;
 }
 
-div.woorden {
+div#woorden {
     font: italic bold 12px/30px Georgia, serif;
     width: 80%;
     margin: auto;

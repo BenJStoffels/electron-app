@@ -6,47 +6,38 @@ const checkBox = document.querySelector('input');
 const specialWords = [];
 const words = curwindow.woorden;
 
+const app = new Vue({
+    el: '#woorden',
+    data: {
+        curwords: words,
+        specialWords: specialWords,
+        words: words
+    }
+});
+
 checkBox.onchange = function() {
     if (checkBox.checked && specialWords.length != 0) {
-        drawFromList(specialWords);
+        app.curwords = app.specialWords;
         curwindow.woorden = specialWords;
     } else {
         checkBox.checked = false;
-        drawFromList(curwindow.woorden);
-        curwindow.woorden = curwindow.woorden;
+        app.curwords = app.words
+        curwindow.woorden = words;
     }
 }
 
-
-if (words) {
-    drawFromList(words);
-}
-
-function drawFromList(list) {
-    const woordenDiv = document.querySelector('.woorden');
-    woordenDiv.innerHTML = '';
-
-
-    list.forEach(elt => {
-        let newdiv = document.createElement('div');
-        newdiv.className = 'woordDiv';
-        let star = document.createElement('span');
-        star.innerHTML = specialWords.findIndex(element => element == elt) != -1 ? '&#9733' : '&#9734';
-        star.className = 'star';
-        newdiv.appendChild(star);
-        newdiv.onclick = () => {
-            const index = specialWords.findIndex(element => element == elt);
-            if (index != -1) {
-                specialWords.splice(index, 1);
-                star.innerHTML = '&#9734';
-            } else {
-                specialWords.push(elt);
-                star.innerHTML = '&#9733';
-            }
-        }
-        let wordText = document.createElement('p');
-        wordText.innerText = `${elt.nom}, ${elt.gen}: ${elt.vert} (${elt.geslacht})`;
-        newdiv.appendChild(wordText);
-        woordenDiv.appendChild(newdiv);
+function onClick(e) {
+    const nom = e.querySelector('p').innerText.split(", ")[0];
+    const gen = e.querySelector('p').innerText.split(", ")[1].split(": ")[0];
+    const vert = e.querySelector('p').innerText.split(": ")[1].split(", (")[0].split(", ");
+    const geslacht = e.querySelector('p').innerText.split(", (")[1].split(")")[0];
+    const index = app.specialWords.findIndex(element => {
+        return element.nom == nom && element.gen == gen;
     });
+    if (index != -1) {
+        app.specialWords.splice(index, 1);
+    } else {
+        app.specialWords.push({ nom, gen, vert, geslacht });
+        console.log(app.specialWords);
+    }
 }
