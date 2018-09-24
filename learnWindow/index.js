@@ -2,32 +2,35 @@ const electron = require('electron');
 
 const curwindow = electron.remote.getCurrentWindow();
 
-const woorden = shuffle(curwindow.woorden);
+const woorden = curwindow.woorden;
+const correct = [];
 console.log(woorden);
-let currentIndex = 0;
+let currentIndex = Math.floor(Math.random() * woorden.length);
 let currentWoord = woorden[currentIndex];
 show();
-
-function shuffle(array) {
-    let newarray = new Array(array.length);
-    for (let i = array.length - 1; i > 0; i--) {
-        let j = Math.floor(Math.random() * (i + 1));
-        newarray[i] = array[j];
-        newarray[j] = array[i];
-    }
-    return newarray;
-}
 
 function handleForm() {
     const form = document.querySelector('form');
     // TODO: check if the word is correct;
+    const nom = form.querySelector('label').innerText;
+    const { gen, vert, geslacht } = form;
+    if (checkWord({ nom: nom, gen: gen.value, vert: vert.value, geslacht: geslacht.value })) {
+        document.querySelector('#response').innerText = 'Correct !!!';
+        correct.push(woorden.splice(currentIndex, 1));
+    } else {
+        document.querySelector('#response').innerText = `Wrong !!! the correct answer was ${currentWoord.nom}, ${currentWoord.gen}: ${currentWoord.vert} (${currentWoord.geslacht})`;
+    }
     updateWoord();
 }
 
 function updateWoord() {
-    currentIndex++;
-    currentWoord = woorden[currentIndex];
-    show();
+    try {
+        currentIndex = Math.floor(Math.random() * woorden.length);
+        currentWoord = woorden[currentIndex];
+        show();
+    } catch (err) {
+        curwindow.close();
+    }
 }
 
 function show() {
@@ -37,4 +40,8 @@ function show() {
     form.gen.value = '';
     form.vert.value = '';
     form.geslacht.value = 'm';
+}
+
+function checkWord(word) {
+    return currentWoord.gen == word.gen && currentWoord.geslacht == word.geslacht && currentWoord.vert.find(v => v == word.vert);
 }
