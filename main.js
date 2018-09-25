@@ -28,8 +28,9 @@ app.on('ready', () => {
             learnWindow = createWindow('learnWindow', w => w.woorden = mainWindow.woorden);
         }
     }, {
-        label: 'devtools',
         role: 'toggleDevTools'
+    }, {
+        role: 'reload'
     }];
     const menu = Menu.buildFromTemplate(template);
     Menu.setApplicationMenu(menu);

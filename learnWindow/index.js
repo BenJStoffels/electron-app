@@ -11,16 +11,21 @@ show();
 
 function handleForm() {
     const form = document.querySelector('form');
-    // TODO: check if the word is correct;
     const nom = form.querySelector('label').innerText;
     const { gen, vert, geslacht } = form;
     if (checkWord({ nom: nom, gen: gen.value, vert: vert.value, geslacht: geslacht.value })) {
-        document.querySelector('#response').innerText = 'Correct !!!';
+        const resp = document.querySelector('#response');
+        resp.classList.remove('hiding');
+        resp.classList.add('correct');
+        resp.querySelector('div').innerText = `${nom}, ${gen.value}: ${vert.value} (${geslacht.value})`;
         correct.push(woorden.splice(currentIndex, 1));
     } else {
-        document.querySelector('#response').innerText = `Wrong !!! the correct answer was ${currentWoord.nom}, ${currentWoord.gen}: ${currentWoord.vert} (${currentWoord.geslacht})`;
+        const resp = document.querySelector('#response');
+        resp.classList.remove('hiding');
+        resp.classList.add('wrong');
+        resp.querySelector('div').innerHTML = `<p>${currentWoord.nom}, ${currentWoord.gen}: ${currentWoord.vert} (${currentWoord.geslacht})</p>`;
     }
-    updateWoord();
+    setTimeout(updateWoord, 2500);
 }
 
 function updateWoord() {
@@ -34,7 +39,9 @@ function updateWoord() {
 }
 
 function show() {
+    document.querySelector('#response').className = 'hiding';
     const form = document.querySelector('form');
+    form.className = 'woord';
     const label = form.querySelector('label');
     label.innerText = `${currentWoord.nom}, `;
     form.gen.value = '';
