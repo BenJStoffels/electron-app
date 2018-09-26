@@ -3,13 +3,15 @@
 const { app, BrowserWindow, Menu } = require('electron');
 const data = require('./woorden/woordjesLatijn3.json');
 
-let mainWindow, learnWindow;
+let mainWindow, learnWindow, testWindow;
 
 function createWindow(fileName, extra) {
     // Create the browser window.
     let window = new BrowserWindow({ width: 800, height: 600 });
 
-    extra(window);
+    if (extra) {
+        extra(window);
+    }
 
     window.loadFile(`./${fileName}/index.html`);
 
@@ -26,6 +28,12 @@ app.on('ready', () => {
         accelerator: 'CmdOrCtrl+L',
         click() {
             learnWindow = createWindow('learnWindow', w => w.woorden = mainWindow.woorden);
+        }
+    }, {
+        label: 'Test!',
+        accelerator: 'CmdOrCtrl+T',
+        click() {
+            testWindow = createWindow('testWindow', w => w.woorden = data);
         }
     }, {
         role: 'toggleDevTools'
