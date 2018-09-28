@@ -2,21 +2,27 @@ const { app, BrowserWindow, Menu } = require('electron');
 
 class Woord {
     constructor(jsonWord) {
-        this.nom = jsonWord.nom;
-        this.gen = jsonWord.gen;
-        this.vert = jsonWord.vert;
-        this.geslacht = jsonWord.geslacht;
+        this.type = jsonWord.type;
     }
 
     check(form) {
-        console.warn('unhandled call to check!!');
+        console.warn('unhandled call to check!! on ', this.type);
         return false;
+    }
+
+
+    createHTML(form) {
+        console.warn('unhandled form!');
     }
 }
 
 class Subs extends Woord {
     constructor(jsonWord) {
         super(jsonWord);
+        this.nom = jsonWord.nom;
+        this.gen = jsonWord.gen;
+        this.vert = jsonWord.vert;
+        this.geslacht = jsonWord.geslacht
     }
 
     check(inputWord) {

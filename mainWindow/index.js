@@ -39,8 +39,8 @@ function onClick(e) {
         if (app.specialWords.length == 0) {
             checkBox.checked = false;
             app.curwords = app.words;
-            curwindow.woorden = app.words;
         }
+        curwindow.woorden = app.words;
     } else {
         app.specialWords.push(app.words.find(elt => elt.check({ gen, vert, geslacht })));
         console.log(app.specialWords);

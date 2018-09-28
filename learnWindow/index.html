@@ -10,17 +10,7 @@
 <body>
     <div class="container">
         <h1>Latijn Woorden</h1>
-        <div class="woord">
-            <form action="javascript:handleForm()" class="woord">
-                <label>{{ currentWoord.nom }}, </label>
-                <input type="text" name="gen">:
-                <input type="text" name="vert">
-                <input type="radio" name="geslacht" value="m" checked> m
-                <input type="radio" name="geslacht" value="v"> v
-                <input type="radio" name="geslacht" value="o"> o
-                <input type="submit" value="submit">
-            </form>
-        </div>
+        <div class="woord"></div>
         <div id="response" class="hiding"></div>
         <div class="woordDiv" v-for="woord in correct">
             <p>{{ woord.nom }}, {{ woord.gen }}: <span v-for="v in woord.vert">{{ v }}, </span>({{ woord.geslacht }})</p>

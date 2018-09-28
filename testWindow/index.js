@@ -15,6 +15,23 @@ if (words.length > 10) {
     }
 }
 
+newWords.forEach(word => {
+    if (word.type == 'subs') {
+        word.createHTML = function(base) {
+            const div = document.createElement('div');
+            div.className = 'woordDiv';
+            div.innerHTML = `<span>${this.nom}, </span>
+            <input type="text" name="${this.gen}">:
+            <input type="text" name="${this.vert[0]}">
+            <input type="radio" name="${this.nom}" value="m" checked> m
+            <input type="radio" name="${this.nom}" value="v"> v
+            <input type="radio" name="${this.nom}" value="o"> o`;
+
+            base.appendChild(div);
+        }
+    }
+});
+
 const app = new Vue({
     el: '#woorden',
     data: {
@@ -22,6 +39,7 @@ const app = new Vue({
     }
 });
 
+start();
 
 function check(form, currentWoord) {
     const gen = form[currentWoord.gen].value;
@@ -43,4 +61,13 @@ function handleForm() {
         }
     });
     console.log(fouten);
+}
+
+function start() {
+    app.newWords.forEach(word => word.createHTML(document.querySelector('form.woord')));
+    const form = document.querySelector('form.woord');
+    const btn = document.createElement('input');
+    btn.setAttribute('type', 'submit');
+    btn.setAttribute('value', 'submit');
+    form.appendChild(btn);
 }
