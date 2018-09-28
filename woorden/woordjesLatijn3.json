@@ -5,7 +5,8 @@
         "geslacht": "v",
         "vert": [
             "nacht"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "nubes",
@@ -13,7 +14,8 @@
         "geslacht": "v",
         "vert": [
             "wolk"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "obses",
@@ -21,7 +23,8 @@
         "geslacht": "m",
         "vert": [
             "gijzelaar"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "orbis",
@@ -30,7 +33,8 @@
         "vert": [
             "cirkel",
             "kring"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "ordo",
@@ -42,7 +46,8 @@
             "rang",
             "klasse",
             "orde"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "parens",
@@ -52,7 +57,8 @@
             "ouder",
             "vader",
             "moeder"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "pars",
@@ -60,7 +66,8 @@
         "geslacht": "v",
         "vert": [
             "deel"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "pastor",
@@ -68,7 +75,8 @@
         "geslacht": "m",
         "vert": [
             "herder"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "pater",
@@ -76,7 +84,8 @@
         "geslacht": "m",
         "vert": [
             "vader"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "pax",
@@ -84,7 +93,8 @@
         "geslacht": "v",
         "vert": [
             "vrede"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "pes",
@@ -93,7 +103,8 @@
         "vert": [
             "voet",
             "poot"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "plebs",
@@ -102,7 +113,8 @@
         "vert": [
             "volksmenigte",
             "gepeupel"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "pons",
@@ -110,7 +122,8 @@
         "geslacht": "m",
         "vert": [
             "brug"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "potestas",
@@ -119,7 +132,8 @@
         "vert": [
             "macht",
             "gezag"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "regio",
@@ -128,7 +142,8 @@
         "vert": [
             "gebied",
             "streek"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "rex",
@@ -136,7 +151,8 @@
         "geslacht": "m",
         "vert": [
             "koning"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "salus",
@@ -148,7 +164,8 @@
             "redding",
             "veiligheid",
             "groet"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "sanguis",
@@ -156,7 +173,8 @@
         "geslacht": "m",
         "vert": [
             "bloed"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "sedes",
@@ -168,7 +186,8 @@
             "stoel",
             "woonplaats",
             "woning"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "senex",
@@ -176,7 +195,8 @@
         "geslacht": "m",
         "vert": [
             "oude man"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "sol",
@@ -184,7 +204,8 @@
         "geslacht": "m",
         "vert": [
             "zon"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "tellus",
@@ -196,7 +217,8 @@
             "land",
             "gebied",
             "streek"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "turris",
@@ -205,7 +227,8 @@
         "vert": [
             "toren",
             "paleis"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "urbs",
@@ -213,7 +236,8 @@
         "geslacht": "v",
         "vert": [
             "stad"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "uxor",
@@ -222,7 +246,8 @@
         "vert": [
             "echtgenote",
             "vrouw"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "vallis",
@@ -231,7 +256,8 @@
         "vert": [
             "dal",
             "vallei"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "veritas",
@@ -239,7 +265,8 @@
         "geslacht": "v",
         "vert": [
             "waarheid"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "vestis",
@@ -249,7 +276,8 @@
             "kledingstuk",
             "kleding",
             "kleed"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "victor",
@@ -258,7 +286,8 @@
         "vert": [
             "overwinnaar",
             "winnaar"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "virgo",
@@ -267,7 +296,8 @@
         "vert": [
             "maagd",
             "meisje"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "virtus",
@@ -278,7 +308,8 @@
             "moed",
             "voortreffelijkheid",
             "deugdzaamheid"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "vis",
@@ -289,7 +320,8 @@
             "sterkte",
             "gewelddaad",
             "daad"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "vox",
@@ -297,6 +329,7 @@
         "geslacht": "v",
         "vert": [
             "stem"
-        ]
+        ],
+        "type": "subs"
     }
 ]

@@ -1,10 +1,12 @@
-[{
+[
+    {
         "nom": "ala",
         "gen": "alae",
         "geslacht": "v",
         "vert": [
             "vleugel"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "anima",
@@ -13,7 +15,8 @@
         "vert": [
             "adem",
             "ziel"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "aqua",
@@ -21,7 +24,8 @@
         "geslacht": "v",
         "vert": [
             "water"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "avaritia",
@@ -30,7 +34,8 @@
         "vert": [
             "hebzucht",
             "gierigheid"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "causa",
@@ -41,7 +46,8 @@
             "reden",
             "rechtzaak",
             "proces"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "gen.+causa",
@@ -50,7 +56,8 @@
         "vert": [
             "wegens",
             " omwille van"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "copia",
@@ -62,7 +69,8 @@
             "menigte",
             "gelegenheid",
             "mogelijkheid"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "fama",
@@ -73,7 +81,8 @@
             "opinie",
             "roem",
             "reputatie"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "fera",
@@ -81,7 +90,8 @@
         "geslacht": "v",
         "vert": [
             "wild dier"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "flamma",
@@ -90,7 +100,8 @@
         "vert": [
             "vlam",
             "vuur"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "fortuna",
@@ -103,7 +114,8 @@
             "geluk",
             "bezit",
             "vermogen"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "fuga",
@@ -111,7 +123,8 @@
         "geslacht": "v",
         "vert": [
             "vlucht"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "gen.+gratia",
@@ -120,7 +133,8 @@
         "vert": [
             "wegens",
             "omwille van"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "hora",
@@ -128,7 +142,8 @@
         "geslacht": "v",
         "vert": [
             "uur"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "lacrima",
@@ -136,7 +151,8 @@
         "geslacht": "v",
         "vert": [
             "traan"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "lingua",
@@ -145,7 +161,8 @@
         "vert": [
             "tong",
             "taal"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "luna",
@@ -153,7 +170,8 @@
         "geslacht": "v",
         "vert": [
             "maan"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "natura",
@@ -163,7 +181,8 @@
             "natuur",
             "aard",
             "karakter"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "nympha",
@@ -171,7 +190,8 @@
         "geslacht": "v",
         "vert": [
             "nimf"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "ora",
@@ -179,7 +199,8 @@
         "geslacht": "v",
         "vert": [
             "kust"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "patria",
@@ -187,7 +208,8 @@
         "geslacht": "v",
         "vert": [
             "vaderland"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "pecunia",
@@ -195,7 +217,8 @@
         "geslacht": "v",
         "vert": [
             "geld"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "penna",
@@ -205,7 +228,8 @@
             "veer",
             "slagpen",
             "vleugel"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "poena",
@@ -214,7 +238,8 @@
         "vert": [
             "straf",
             "boete"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "porta",
@@ -223,7 +248,8 @@
         "vert": [
             "poort",
             "deur"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "praeda",
@@ -232,7 +258,8 @@
         "vert": [
             "buit",
             "prooi"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "pugna",
@@ -241,7 +268,8 @@
         "vert": [
             "strijd",
             "gevecht"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "ripa",
@@ -249,7 +277,8 @@
         "geslacht": "v",
         "vert": [
             "oever"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "sententia",
@@ -262,7 +291,8 @@
             "inhoud",
             "spreuk",
             "zin"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "silva",
@@ -271,7 +301,8 @@
         "vert": [
             "bos",
             "woud"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "terra",
@@ -282,7 +313,8 @@
             "grond",
             "land",
             "streek"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "umbra",
@@ -291,7 +323,8 @@
         "vert": [
             "schaduw",
             "schim"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "unda",
@@ -299,7 +332,8 @@
         "geslacht": "v",
         "vert": [
             "golf"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "via",
@@ -308,7 +342,8 @@
         "vert": [
             "weg",
             "straat"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "victoria",
@@ -316,7 +351,8 @@
         "geslacht": "v",
         "vert": [
             "overwinning"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "vita",
@@ -324,7 +360,8 @@
         "geslacht": "v",
         "vert": [
             "leven"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "roma",
@@ -332,7 +369,8 @@
         "geslacht": "v",
         "vert": [
             "rome"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "amicus",
@@ -340,7 +378,8 @@
         "geslacht": "m",
         "vert": [
             "vriend"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "animus",
@@ -353,7 +392,8 @@
             "hart",
             "aard",
             "karakter"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "annus",
@@ -361,7 +401,8 @@
         "geslacht": "m",
         "vert": [
             "jaar"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "campus",
@@ -370,7 +411,8 @@
         "vert": [
             "vlakte",
             "veld"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "captivus",
@@ -379,7 +421,8 @@
         "vert": [
             "krijgsgevangene",
             "gevangene"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "deus",
@@ -387,7 +430,8 @@
         "geslacht": "m",
         "vert": [
             "god"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "dolus",
@@ -396,7 +440,8 @@
         "vert": [
             "list",
             "bedrog"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "equus",
@@ -404,7 +449,8 @@
         "geslacht": "m",
         "vert": [
             "paard"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "filius",
@@ -412,7 +458,8 @@
         "geslacht": "m",
         "vert": [
             "zoon"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "humus",
@@ -422,7 +469,8 @@
             "grond",
             "aarde",
             "land"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "legatus",
@@ -431,7 +479,8 @@
         "vert": [
             "gezant",
             "onderbevelhebber"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "locus",
@@ -439,7 +488,8 @@
         "geslacht": "m",
         "vert": [
             "plaats"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "lucus",
@@ -449,7 +499,8 @@
             "heilig bos",
             "bos",
             "woud"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "modus",
@@ -459,7 +510,8 @@
             "manier",
             "wijze",
             "maat"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "murus",
@@ -467,7 +519,8 @@
         "geslacht": "m",
         "vert": [
             "muur"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "numerus",
@@ -476,7 +529,8 @@
         "vert": [
             "getal",
             "aantal"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "oculus",
@@ -484,7 +538,8 @@
         "geslacht": "m",
         "vert": [
             "oog"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "pontus",
@@ -492,7 +547,8 @@
         "geslacht": "m",
         "vert": [
             "zee"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "populus",
@@ -500,7 +556,8 @@
         "geslacht": "m",
         "vert": [
             "volk"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "ramus",
@@ -508,7 +565,8 @@
         "geslacht": "m",
         "vert": [
             "tak"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "remus",
@@ -516,7 +574,8 @@
         "geslacht": "m",
         "vert": [
             "roeiriem"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "servus",
@@ -524,7 +583,8 @@
         "geslacht": "m",
         "vert": [
             "slaaf"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "somnus",
@@ -532,7 +592,8 @@
         "geslacht": "m",
         "vert": [
             "slaap"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "tumulus",
@@ -541,7 +602,8 @@
         "vert": [
             "grafheuvel",
             "heuvel"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "umerus",
@@ -549,7 +611,8 @@
         "geslacht": "m",
         "vert": [
             "schouder"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "ventus",
@@ -557,7 +620,8 @@
         "geslacht": "m",
         "vert": [
             "wind"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "romanus",
@@ -565,7 +629,8 @@
         "geslacht": "m",
         "vert": [
             "romein"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "ager",
@@ -574,7 +639,8 @@
         "vert": [
             "akker",
             "veld"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "liberi",
@@ -582,7 +648,8 @@
         "geslacht": "m",
         "vert": [
             "kinderen"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "puer",
@@ -591,7 +658,8 @@
         "vert": [
             "jongen",
             "knaap"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "vir",
@@ -599,7 +667,8 @@
         "geslacht": "m",
         "vert": [
             "man"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "antrum",
@@ -607,7 +676,8 @@
         "geslacht": "o",
         "vert": [
             "grot"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "arma",
@@ -615,7 +685,8 @@
         "geslacht": "o",
         "vert": [
             "wapens"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "bellum",
@@ -623,7 +694,8 @@
         "geslacht": "o",
         "vert": [
             "oorlog"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "caelum",
@@ -631,7 +703,8 @@
         "geslacht": "o",
         "vert": [
             "hemel"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "castra",
@@ -640,7 +713,8 @@
         "vert": [
             "legerkamp",
             "kamp"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "collum",
@@ -649,7 +723,8 @@
         "vert": [
             "hals",
             "nek"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "consilium",
@@ -665,7 +740,8 @@
             "advies",
             "besluit",
             "beslissing"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "dictum",
@@ -675,7 +751,8 @@
             "woord",
             "uitspraak",
             "gezegde"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "donum",
@@ -683,7 +760,8 @@
         "geslacht": "o",
         "vert": [
             "geschenk"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "factum",
@@ -696,7 +774,8 @@
             "voorval",
             "gebeurtenis",
             "feit"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "forum",
@@ -705,7 +784,8 @@
         "vert": [
             "forum",
             "marktplein"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "imperium",
@@ -716,7 +796,8 @@
             "heerschappij",
             "macht",
             "rijk"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "initium",
@@ -724,7 +805,8 @@
         "geslacht": "o",
         "vert": [
             "begin"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "oppidum",
@@ -733,7 +815,8 @@
         "vert": [
             "versterkte stad",
             "stad"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "praemium",
@@ -741,7 +824,8 @@
         "geslacht": "o",
         "vert": [
             "beloning"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "proelium",
@@ -750,7 +834,8 @@
         "vert": [
             "strijd",
             "gevecht"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "iudicium",
@@ -759,7 +844,8 @@
         "vert": [
             "oordeel",
             "vonnis"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "regnum",
@@ -769,7 +855,8 @@
             "koningkrijk",
             "rijk",
             "heerschappij"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "saxum",
@@ -780,7 +867,8 @@
             "rots",
             "grote steen",
             "steen"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "signum",
@@ -791,7 +879,8 @@
             "signaal",
             "veldteken",
             "vaandel"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "solum",
@@ -801,7 +890,8 @@
             "bodem",
             "grond",
             "vloer"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "spatium",
@@ -813,7 +903,8 @@
             "duur",
             "tijdsduur",
             "tijd"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "studium",
@@ -824,7 +915,8 @@
             "drang",
             "belangstelling",
             "studie"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "supplicium",
@@ -835,7 +927,8 @@
             "gebed",
             "doodstraf",
             "terechtstelling"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "tectum",
@@ -845,7 +938,8 @@
             "dak",
             "woning",
             "huis"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "telum",
@@ -854,7 +948,8 @@
         "vert": [
             "werptuig",
             "projectiel"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "templum",
@@ -863,7 +958,8 @@
         "vert": [
             "tempel",
             "heiligdom"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "tergum",
@@ -871,7 +967,8 @@
         "geslacht": "o",
         "vert": [
             "rug"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "vallum",
@@ -881,7 +978,8 @@
             "verdedigingswal",
             "wal",
             "beschutting"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "verbum",
@@ -890,7 +988,8 @@
         "vert": [
             "woord",
             ""
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "vestigium",
@@ -901,7 +1000,8 @@
             "spoor",
             "voetstap",
             "stap"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "votum",
@@ -910,6 +1010,7 @@
         "vert": [
             "gelofte",
             "gebed"
-        ]
+        ],
+        "type": "subs"
     }
 ]

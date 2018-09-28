@@ -21,8 +21,8 @@ checkBox.onchange = function() {
         curwindow.woorden = specialWords;
     } else {
         checkBox.checked = false;
-        app.curwords = app.words
-        curwindow.woorden = words;
+        app.curwords = app.words;
+        curwindow.woorden = app.words;
     }
 }
 
@@ -36,8 +36,13 @@ function onClick(e) {
     });
     if (index != -1) {
         app.specialWords.splice(index, 1);
+        if (app.specialWords.length == 0) {
+            checkBox.checked = false;
+            app.curwords = app.words;
+            curwindow.woorden = app.words;
+        }
     } else {
-        app.specialWords.push({ nom, gen, vert, geslacht });
+        app.specialWords.push(app.words.find(elt => elt.check({ gen, vert, geslacht })));
         console.log(app.specialWords);
     }
 }

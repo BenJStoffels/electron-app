@@ -1,7 +1,36 @@
-// TODO: create Learn window, add shortcut and button for Menu mainWindow
-
 const { app, BrowserWindow, Menu } = require('electron');
-const data = require('./woorden/woordjesLatijn3.json');
+
+class Woord {
+    constructor(jsonWord) {
+        this.nom = jsonWord.nom;
+        this.gen = jsonWord.gen;
+        this.vert = jsonWord.vert;
+        this.geslacht = jsonWord.geslacht;
+    }
+
+    check(form) {
+        console.warn('unhandled call to check!!');
+        return false;
+    }
+}
+
+class Subs extends Woord {
+    constructor(jsonWord) {
+        super(jsonWord);
+    }
+
+    check(inputWord) {
+        return this.gen == inputWord.gen && this.geslacht == inputWord.geslacht && this.vert.find(v => v == inputWord.vert);
+    }
+}
+
+const data = require('./woorden/woordjesLatijn3.json').map(word => {
+    if (word.type == 'subs') {
+        return new Subs(word);
+    }
+    return new Woord(word);
+});
+
 
 let mainWindow, learnWindow, testWindow;
 
@@ -55,4 +84,4 @@ app.on('activate', function() {
     if (mainWindow === null) {
         mainWindow = createWindow('mainWindow');
     }
-})
+});

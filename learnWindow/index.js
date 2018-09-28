@@ -22,7 +22,7 @@ function handleForm() {
     const form = document.querySelector('form');
     const nom = form.querySelector('label').innerText;
     const { gen, vert, geslacht } = form;
-    if (checkWord({ nom: nom, gen: gen.value, vert: vert.value, geslacht: geslacht.value })) {
+    if (app.currentWoord.check({ nom: nom, gen: gen.value, vert: vert.value, geslacht: geslacht.value })) {
         app.correct.push(app.woorden.splice(app.currentIndex, 1)[0]);
     } else {
         const resp = document.querySelector('#response');
@@ -50,9 +50,4 @@ function show() {
     form.gen.value = '';
     form.vert.value = '';
     form.geslacht.value = 'm';
-}
-
-function checkWord(word) {
-    const currentWoord = app.currentWoord;
-    return currentWoord.gen == word.gen && currentWoord.geslacht == word.geslacht && currentWoord.vert.find(v => v == word.vert);
 }

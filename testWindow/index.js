@@ -23,12 +23,12 @@ const app = new Vue({
 });
 
 
-function check(d, w) {
-    console.log(d[w.gen].value == w.gen, d[w.gen].value, w.gen);
-    console.log(w.vert.find(v => v == d[w.vert[0]].value), d[w.vert[0]].value, w.vert);
-    console.log(d[w.nom].value == w.geslacht, d[w.nom].value, w.geslacht);
+function check(form, currentWoord) {
+    const gen = form[currentWoord.gen].value;
+    const vert = form[currentWoord.vert[0]].value;
+    const geslacht = form[currentWoord.nom].value;
 
-    return d[w.gen].value == w.gen && w.vert.find(v => v == d[w.vert[0]].value) && d[w.nom].value == w.geslacht;
+    return currentWoord.check({ gen, vert, geslacht });
 }
 
 function handleForm() {

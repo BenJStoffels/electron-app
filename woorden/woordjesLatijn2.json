@@ -5,7 +5,8 @@
         "geslacht": "m",
         "vert": [
             "lucht"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "aestas",
@@ -14,7 +15,8 @@
         "vert": [
             "zomer",
             "zomerhitte"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "aetas",
@@ -24,7 +26,8 @@
             "leeftijd",
             "tijd",
             "tijdperk"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "amor",
@@ -32,7 +35,8 @@
         "geslacht": "m",
         "vert": [
             "liefde"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "arbor",
@@ -40,7 +44,8 @@
         "geslacht": "v",
         "vert": [
             "boom"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "ars",
@@ -49,7 +54,8 @@
         "vert": [
             "kunst",
             "vaardigheid"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "arx",
@@ -59,7 +65,8 @@
             "burcht",
             "vestiging",
             "bovenstad"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "auctoritas",
@@ -70,7 +77,8 @@
             "gezag",
             "aanzien",
             "invloed"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "auris",
@@ -78,7 +86,8 @@
         "geslacht": "v",
         "vert": [
             "oor"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "caedes",
@@ -89,7 +98,8 @@
             "doodslag",
             "bloedbad",
             "slachting"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "canis",
@@ -97,7 +107,8 @@
         "geslacht": "m",
         "vert": [
             "hond"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "civis",
@@ -105,7 +116,8 @@
         "geslacht": "m",
         "vert": [
             "burger"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "civitas",
@@ -117,7 +129,8 @@
             "stad",
             "gemeente",
             "staat"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "clamor",
@@ -126,7 +139,8 @@
         "vert": [
             "geroep",
             "geschreeuw"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "collis",
@@ -134,7 +148,8 @@
         "geslacht": "m",
         "vert": [
             "heuvel"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "adulescens",
@@ -142,7 +157,8 @@
         "geslacht": "m",
         "vert": [
             "jongeman"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "comes",
@@ -151,7 +167,8 @@
         "vert": [
             "begeleider",
             "metgezel"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "coniunx",
@@ -160,7 +177,8 @@
         "vert": [
             "echtgenoot",
             "echtgenote"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "consul",
@@ -169,7 +187,8 @@
         "vert": [
             "consul",
             "een van de twee hoogste ambtenaren in de republiek"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "custos",
@@ -178,7 +197,8 @@
         "vert": [
             "bewaker",
             "beschermer"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "dolor",
@@ -187,7 +207,8 @@
         "vert": [
             "pijn",
             "verdriet"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "eques",
@@ -197,7 +218,8 @@
             "ruiter",
             "cavalerist",
             "ridder"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "fames",
@@ -205,7 +227,8 @@
         "geslacht": "v",
         "vert": [
             "honger"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "finis",
@@ -215,7 +238,8 @@
             "grens",
             "einde",
             "gebied"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "flos",
@@ -223,7 +247,8 @@
         "geslacht": "m",
         "vert": [
             "bloem"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "fons",
@@ -231,7 +256,8 @@
         "geslacht": "m",
         "vert": [
             "bron"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "frater",
@@ -239,7 +265,8 @@
         "geslacht": "m",
         "vert": [
             "broer"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "frons",
@@ -248,7 +275,8 @@
         "vert": [
             "loof",
             "gebladerde"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "gens",
@@ -261,7 +289,8 @@
             "stam",
             "volk",
             "natie"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "grex",
@@ -271,7 +300,8 @@
             "kudde",
             "troep",
             "groep"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "hiems",
@@ -279,7 +309,8 @@
         "geslacht": "v",
         "vert": [
             "winter"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "homo",
@@ -287,7 +318,8 @@
         "geslacht": "m",
         "vert": [
             "mens"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "honor",
@@ -298,7 +330,8 @@
             "eerbetoon",
             "ereambt",
             "ambt"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "hostis",
@@ -307,7 +340,8 @@
         "vert": [
             "staatsvijand",
             "vijand"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "ignis",
@@ -316,7 +350,8 @@
         "vert": [
             "vuur",
             "brand"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "imago",
@@ -325,7 +360,8 @@
         "vert": [
             "beeld",
             "afbeelding"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "imperator",
@@ -334,7 +370,8 @@
         "vert": [
             "opperbevelhebber",
             "keizer"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "iuvenis",
@@ -342,7 +379,8 @@
         "geslacht": "m",
         "vert": [
             "jongeman"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "labor",
@@ -353,7 +391,8 @@
             "arbeid",
             "inspanning",
             "moeite"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "lex",
@@ -361,7 +400,8 @@
         "geslacht": "v",
         "vert": [
             "wet"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "lux",
@@ -369,7 +409,8 @@
         "geslacht": "v",
         "vert": [
             "licht"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "magnitudo",
@@ -377,7 +418,8 @@
         "geslacht": "v",
         "vert": [
             "grootte"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "mater",
@@ -385,7 +427,8 @@
         "geslacht": "v",
         "vert": [
             "moeder"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "mens",
@@ -395,7 +438,8 @@
             "verstand",
             "geest",
             "gedachte"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "miles",
@@ -403,7 +447,8 @@
         "geslacht": "m",
         "vert": [
             "soldaat"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "mons",
@@ -412,7 +457,8 @@
         "vert": [
             "berg",
             "gebergte"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "mors",
@@ -421,7 +467,8 @@
         "vert": [
             "zede",
             "gewoonte"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "multitudo",
@@ -430,7 +477,8 @@
         "vert": [
             "menigte",
             "massa"
-        ]
+        ],
+        "type": "subs"
     },
     {
         "nom": "nobilitas",
@@ -438,6 +486,7 @@
         "geslacht": "v",
         "vert": [
             "adel"
-        ]
+        ],
+        "type": "subs"
     }
 ]
