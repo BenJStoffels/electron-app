@@ -36,11 +36,12 @@ function onClick(e) {
     });
     if (index != -1) {
         app.specialWords.splice(index, 1);
+        curwindow.woorden = app.specialWords;
         if (app.specialWords.length == 0) {
             checkBox.checked = false;
             app.curwords = app.words;
+            curwindow.woorden = app.words;
         }
-        curwindow.woorden = app.words;
     } else {
         app.specialWords.push(app.words.find(elt => elt.check({ gen, vert, geslacht })));
         console.log(app.specialWords);
